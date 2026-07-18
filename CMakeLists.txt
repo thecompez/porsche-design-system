@@ -23,7 +23,7 @@ endif()
 project(
     PdsNative
     VERSION 0.1.0
-    DESCRIPTION "PDS Qt Quick Native Implementation Study"
+    DESCRIPTION "Native Qt Quick port of Porsche Design System v4"
     LANGUAGES CXX
 )
 
@@ -43,7 +43,7 @@ include(CMakePackageConfigHelpers)
 find_package(Qt6 6.8 REQUIRED COMPONENTS Core Gui Qml Quick QuickControls2 Test QuickTest)
 qt_standard_project_setup(REQUIRES 6.8)
 
-option(PDS_BUILD_GALLERY "Build the component gallery" ON)
+option(PDS_BUILD_GALLERY "Build the component lab and Porsche reference gallery" ON)
 option(PDS_BUILD_TESTS "Build tests" ${BUILD_TESTING})
 
 add_subdirectory(tools/token-generator)
@@ -98,28 +98,36 @@ set(PDS_QML_FILES
     tokens/generated/Tokens.qml
     src/pds/qml/Theme.qml
     src/pds/qml/Typography.qml
+    src/pds/qml/IconProvider.qml
     src/pds/qml/Motion.qml
-    src/pds/qml/Icons.qml
-    src/pds/qml/primitives/Elevation.qml
     src/pds/qml/primitives/FocusRing.qml
-    src/pds/qml/primitives/Icon.qml
     src/pds/qml/primitives/InteractiveArea.qml
-    src/pds/qml/primitives/Surface.qml
-    src/pds/qml/primitives/Text.qml
-    src/pds/qml/controls/Banner.qml
     src/pds/qml/controls/Button.qml
-    src/pds/qml/controls/Card.qml
-    src/pds/qml/controls/IconButton.qml
+    src/pds/qml/controls/Spinner.qml
+    src/pds/qml/controls/Icon.qml
+    src/pds/qml/controls/Text.qml
+    src/pds/qml/controls/Heading.qml
+    src/pds/qml/controls/Divider.qml
+    src/pds/qml/controls/Link.qml
+    src/pds/qml/controls/LinkPure.qml
+    src/pds/qml/controls/ButtonPure.qml
+    src/pds/qml/controls/InputText.qml
+    src/pds/qml/controls/InputPassword.qml
     src/pds/qml/controls/Switch.qml
-    src/pds/qml/controls/TextField.qml
+    src/pds/qml/controls/Checkbox.qml
+    src/pds/qml/controls/RadioGroup.qml
+    src/pds/qml/controls/Select.qml
+    src/pds/qml/controls/Banner.qml
+    src/pds/qml/controls/InlineNotification.qml
+    src/pds/qml/controls/Tag.qml
 )
 
 set_source_files_properties(
     tokens/generated/Tokens.qml
     src/pds/qml/Theme.qml
     src/pds/qml/Typography.qml
+    src/pds/qml/IconProvider.qml
     src/pds/qml/Motion.qml
-    src/pds/qml/Icons.qml
     PROPERTIES QT_QML_SINGLETON_TYPE TRUE
 )
 
@@ -137,7 +145,8 @@ target_compile_features(PdsNativeControls PUBLIC cxx_std_26)
 set_target_properties(PdsNativeControls PROPERTIES EXPORT_NAME Controls)
 
 if(PDS_BUILD_GALLERY)
-    add_subdirectory(examples/gallery)
+    add_subdirectory(examples/component-lab)
+    add_subdirectory(examples/porsche-reference-gallery)
 endif()
 
 if(PDS_BUILD_TESTS)
