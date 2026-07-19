@@ -9,6 +9,23 @@ endorsed by Porsche AG. Restricted Porsche fonts, icons, marks, and media are
 not redistributed. See [NOTICE.md](NOTICE.md) and
 [docs/legal-and-assets.md](docs/legal-and-assets.md).
 
+```mermaid
+flowchart TD
+    A["Porsche Design System v4.4.0"] --> B["Upstream Lock + Component Specs"]
+    B --> C["Token Generator"]
+    C --> D["Tokens.qml"]
+    C --> E["pds.native.tokens"]
+    E --> F["pds.native.core"]
+    D --> G["QML Runtime: Theme / Typography / Motion"]
+    F --> H["Native Controls"]
+    G --> H
+    H --> I["Application / Gallery"]
+    H --> J["Interaction, Accessibility and Visual Tests"]
+    A --> K["Official Web Reference"]
+    K --> L["Visual Fidelity Gate"]
+    H --> L
+```
+
 ## Current calibrated scope
 
 `Button.qml` and `Spinner.qml` are the current native component scope. Button
