@@ -1,0 +1,44 @@
+{
+  "component": "text",
+  "upstreamTag": "p-text",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/text/text.tsx",
+    "packages/components/src/components/text/text-utils.ts",
+    "packages/components/src/components/text/text-styles.ts",
+    "packages/components/src/styles/maps/size-map.ts",
+    "packages/components/src/styles/maps/color-map.ts",
+    "packages/components/src/styles/maps/weight-map.ts"
+  ],
+  "defaults": {
+    "tag": "p",
+    "size": "sm",
+    "weight": "normal",
+    "align": "start",
+    "color": "primary",
+    "hyphens": "inherit",
+    "ellipsis": false
+  },
+  "tags": ["p", "span", "div", "address", "blockquote", "figcaption", "cite", "time", "legend"],
+  "sizes": ["2xs", "xs", "sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "inherit"],
+  "weights": ["normal", "semibold", "bold"],
+  "alignments": ["start", "center", "end", "inherit"],
+  "colors": [
+    "primary", "contrast-higher", "contrast-high", "contrast-medium",
+    "success", "warning", "error", "info", "inherit"
+  ],
+  "hyphens": ["none", "manual", "auto", "inherit"],
+  "typography": {
+    "familyToken": "fontPorscheNext",
+    "baseSizeToken": "typescaleSm",
+    "lineHeightToken": "leadingNormal",
+    "fluidSizeResolution": "CSS clamp evaluated against native viewport width"
+  },
+  "behavior": {
+    "display": "block",
+    "ellipsis": "single-line end elision",
+    "autoOrManualHyphens": "overflow-wrap break-word"
+  },
+  "classification": "Extracted"
+}

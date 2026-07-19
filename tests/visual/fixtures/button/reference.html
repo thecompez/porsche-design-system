@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PDS v4.4.0 Button reference fixture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@porsche-design-system/components-js@4.4.0/stylesheets/index.css">
+    <style>
+      * { box-sizing: border-box; }
+      html, body {
+        width: 720px;
+        height: 520px;
+        margin: 0;
+        overflow: hidden;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        background: #fff;
+        color-scheme: light;
+      }
+      body[data-theme="dark"] {
+        background: #010205;
+        color-scheme: dark;
+      }
+      #scene {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        justify-items: start;
+        gap: 16px;
+        direction: ltr;
+      }
+      body[data-direction="rtl"] #scene { direction: rtl; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@porsche-design-system/components-js@4.4.0/index.js"></script>
+  </head>
+  <body>
+    <main id="scene" aria-label="Button calibration matrix">
+      <p-button>Primary</p-button>
+      <p-button variant="secondary">Secondary</p-button>
+      <p-button compact="true">Compact</p-button>
+      <p-button compact="true" variant="secondary">Compact</p-button>
+      <p-button disabled="true">Disabled</p-button>
+      <p-button disabled="true" variant="secondary">Disabled</p-button>
+      <p-button loading="true">Loading</p-button>
+      <p-button loading="true" variant="secondary">Loading</p-button>
+    </main>
+    <script>
+      const query = new URLSearchParams(location.search);
+      document.body.dataset.theme = query.get("theme") === "dark" ? "dark" : "light";
+      document.body.dataset.direction = query.get("direction") === "rtl" ? "rtl" : "ltr";
+      porscheDesignSystem.load();
+      porscheDesignSystem.componentsReady().then(() => {
+          const state = query.get("state");
+          if (state === "hover" || state === "active") {
+            // Deterministic pseudo-state forcing for screenshot automation.
+            // This is the exact v4.4.0 primary hover declaration; upstream has
+            // no separate :active declaration.
+            const style = document.createElement("style");
+            style.textContent = ".root{background-color:var(--p-color-contrast-high)!important}";
+            document.querySelector("p-button").shadowRoot.append(style);
+          }
+          if (query.get("focus") === "true") {
+            document.querySelector("p-button").shadowRoot.querySelector("button").focus();
+          }
+          document.body.dataset.ready = "true";
+        });
+    </script>
+  </body>
+</html>

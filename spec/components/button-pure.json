@@ -1,0 +1,50 @@
+{
+  "component": "button-pure",
+  "upstreamTag": "p-button-pure",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/button-pure/button-pure.tsx",
+    "packages/components/src/components/button-pure/button-pure-utils.ts",
+    "packages/components/src/components/button-pure/button-pure-styles.ts",
+    "packages/components/src/styles/link-button-pure-styles.ts"
+  ],
+  "defaults": {
+    "type": "submit",
+    "disabled": false,
+    "loading": false,
+    "size": "sm",
+    "color": "primary",
+    "icon": "arrow-right",
+    "underline": false,
+    "active": false,
+    "hideLabel": false,
+    "alignLabel": "end",
+    "stretch": false
+  },
+  "buttonTypes": ["submit", "reset", "button"],
+  "sizes": ["2xs", "xs", "sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "inherit"],
+  "colors": ["primary", "contrast-higher", "contrast-high", "contrast-medium", "inherit"],
+  "alignLabel": ["start", "end"],
+  "geometry": {
+    "gapToken": "spacingStaticXs",
+    "focusHoverInsetVertical": -2,
+    "focusHoverInsetHorizontal": -4,
+    "labelRadiusToken": "radiusLg",
+    "hiddenLabelRadiusToken": "radiusFull",
+    "iconExtentToken": "leadingNormal"
+  },
+  "states": {
+    "activeBackground": "colorFrosted",
+    "hoverBackground": "colorFrostedStrong",
+    "disabledForeground": "colorContrastLow",
+    "loading": "spinner replaces icon and blocks interaction",
+    "disabled": "blocks interaction"
+  },
+  "accessibility": {
+    "role": "button",
+    "disabledAndLoading": "accessible disabled",
+    "loadingDescription": "Loading"
+  },
+  "classification": "Extracted"
+}

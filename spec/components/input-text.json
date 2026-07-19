@@ -1,0 +1,32 @@
+{
+  "component": "input-text",
+  "upstreamTag": "p-input-text",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/input-text/input-text.tsx",
+    "packages/components/src/components/input-text/input-text-styles.ts",
+    "packages/components/src/components/common/input-base/input-base-styles.ts"
+  ],
+  "properties": [
+    "label", "description", "compact", "name", "value", "autoComplete",
+    "readOnly", "form", "maxLength", "minLength", "placeholder", "disabled",
+    "required", "loading", "state", "message", "hideLabel", "counter", "spellCheck"
+  ],
+  "states": ["none", "success", "error"],
+  "geometry": {
+    "normalHeight": 56, "compactHeight": 36, "border": 1,
+    "normalRadiusToken": "radiusXl", "compactRadiusToken": "radiusLg",
+    "normalPaddingInline": 16, "compactPaddingInline": 8,
+    "normalInternalGap": 12, "compactInternalGap": 4,
+    "rootGapToken": "spacingStaticXs"
+  },
+  "colors": {
+    "none": ["colorFrosted", "colorContrastLower", "colorPrimary"],
+    "success": ["colorSuccessFrostedSoft", "colorSuccess", "colorSuccess"],
+    "error": ["colorErrorFrostedSoft", "colorError", "colorError"],
+    "readOnly": ["colorFrosted", "transparent", "colorContrastMedium"]
+  },
+  "accessibility": ["label", "description", "required", "invalid", "disabled", "readonly"],
+  "classification": "Extracted"
+}

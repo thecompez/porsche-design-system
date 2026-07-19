@@ -1,0 +1,42 @@
+{
+  "component": "tabs",
+  "upstreamTag": "p-tabs",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/tabs/tabs.tsx",
+    "packages/components/src/components/tabs-bar/tabs-bar-styles.ts",
+    "packages/components/src/components/tabs-item/tabs-item.tsx"
+  ],
+  "properties": [
+    "activeTabIndex", "aria", "background", "compact", "size"
+  ],
+  "backgrounds": ["canvas", "surface", "frosted", "none"],
+  "sizes": ["small", "medium"],
+  "defaults": {
+    "activeTabIndex": 0,
+    "background": "none",
+    "compact": false,
+    "size": "small"
+  },
+  "geometry": {
+    "normalHeight": 56,
+    "normalPaddingBlock": 16,
+    "normalPaddingInline": 28,
+    "normalRadiusToken": "radiusXl",
+    "compactHeight": 36,
+    "compactPaddingBlock": 6,
+    "compactPaddingInline": 16,
+    "compactRadiusToken": "radiusLg"
+  },
+  "states": {
+    "selectedBackground": "colorFrostedStrong",
+    "hoverBackground": "colorFrosted",
+    "focusWidth": 2,
+    "focusOffset": 2
+  },
+  "keyboard": ["ArrowLeft", "ArrowRight", "Home", "End"],
+  "event": "update(activeTabIndex)",
+  "accessibility": ["tablist", "tab", "tabpanel", "aria-selected"],
+  "classification": "Extracted"
+}

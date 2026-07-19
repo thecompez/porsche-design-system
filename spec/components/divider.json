@@ -1,0 +1,27 @@
+{
+  "component": "divider",
+  "upstreamTag": "p-divider",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/divider/divider.tsx",
+    "packages/components/src/components/divider/divider-utils.ts",
+    "packages/components/src/components/divider/divider-styles.ts"
+  ],
+  "defaults": {
+    "color": "contrast-lower",
+    "direction": "horizontal"
+  },
+  "colors": ["contrast-lower", "contrast-low", "contrast-medium", "contrast-high"],
+  "directions": ["horizontal", "vertical"],
+  "geometry": {
+    "thickness": 1,
+    "horizontal": {"width": "100%", "height": 1},
+    "vertical": {"width": 1, "height": "100%"}
+  },
+  "accessibility": {
+    "role": "separator",
+    "orientationExposed": true
+  },
+  "classification": "Extracted"
+}

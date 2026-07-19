@@ -1,0 +1,31 @@
+{
+  "component": "banner",
+  "upstreamTag": "p-banner",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/banner/banner.tsx",
+    "packages/components/src/components/banner/banner-styles.ts",
+    "packages/components/src/components/common/notification-base/notification-base-styles.ts"
+  ],
+  "properties": ["open", "heading", "headingTag", "description", "position", "state", "dismissButton"],
+  "positions": ["top", "bottom"],
+  "states": ["info", "success", "warning", "error"],
+  "defaults": {
+    "open": false, "headingTag": "h5", "position": {"base": "bottom", "s": "top"},
+    "state": "info", "dismissButton": true
+  },
+  "geometry": {
+    "maxWidth": "100ch", "edgeDistance": 56,
+    "horizontalInset": "max(22px, 10.625vw - 12px)",
+    "radiusToken": "radius2Xl",
+    "padding": "spacingStaticSm + spacingFluidSm",
+    "shadowToken": "shadowLg"
+  },
+  "accessibility": {
+    "warningAndError": ["alert", "assertive"],
+    "infoAndSuccess": ["status", "polite"],
+    "escapeDismissesOnlyWhenDismissButton": true
+  },
+  "classification": "Extracted"
+}

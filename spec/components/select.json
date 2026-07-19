@@ -1,0 +1,38 @@
+{
+  "component": "select",
+  "upstreamTag": "p-select",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/select/select/select.tsx",
+    "packages/components/src/components/select/select/select-styles.ts",
+    "packages/components/src/styles/select/button.ts",
+    "packages/components/src/styles/select/popover.ts",
+    "packages/components/src/styles/select/option.ts"
+  ],
+  "properties": [
+    "label", "description", "name", "value", "state", "message", "hideLabel",
+    "disabled", "required", "dropdownDirection", "filter", "compact", "form"
+  ],
+  "dropdownDirections": ["auto", "up", "down"],
+  "geometry": {
+    "normalHeight": 56, "compactHeight": 36, "border": 1,
+    "normalRadiusToken": "radiusXl", "compactRadiusToken": "radiusLg",
+    "normalPaddingInline": 16, "compactPaddingInline": 8,
+    "popoverPaddingNormal": 8, "popoverPaddingCompact": 4,
+    "popoverGapNormal": 8, "popoverGapCompact": 4,
+    "popoverRadiusToken": "radiusXl",
+    "popoverBorderToken": "colorContrastLow",
+    "optionHeight": 40,
+    "optionRadiusToken": "radiusSm"
+  },
+  "keyboard": [
+    "ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End",
+    "Enter", "Space", "Escape", "typeahead"
+  ],
+  "behavior": [
+    "focus restoration", "outside click close", "viewport clamping",
+    "selected highlight", "disabled option skipping", "optional filtering"
+  ],
+  "classification": "Extracted"
+}

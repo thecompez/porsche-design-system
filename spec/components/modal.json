@@ -1,0 +1,45 @@
+{
+  "component": "modal",
+  "upstreamTag": "p-modal",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/modal/modal.tsx",
+    "packages/components/src/components/modal/modal-styles.ts",
+    "packages/components/src/utils/setScrollLock.ts"
+  ],
+  "properties": [
+    "aria", "backdrop", "background", "disableBackdropClick",
+    "dismissButton", "fullscreen", "open"
+  ],
+  "backdrops": ["blur", "shading"],
+  "backgrounds": ["canvas", "surface"],
+  "defaults": {
+    "backdrop": "blur",
+    "background": "canvas",
+    "disableBackdropClick": false,
+    "dismissButton": true,
+    "fullscreen": false,
+    "open": false
+  },
+  "geometry": {
+    "width": "clamp(276px, 45.25vw + 131px, 640px)",
+    "minWidth": 276,
+    "maxWidth": 640,
+    "horizontalMargin": "max(22px, 10.625vw - 12px)",
+    "verticalMargin": "clamp(16px, 10vh, 192px)",
+    "radiusToken": "radius3Xl",
+    "contentPaddingTop": "spacingFluidMd",
+    "contentPaddingInline": "spacingFluidLg",
+    "contentPaddingBottom": "radius3Xl + spacingFluidMd"
+  },
+  "motion": {
+    "panelStartTranslateY": "25vh",
+    "panelDurationToken": "durationSm",
+    "backdropDurationToken": "durationMd"
+  },
+  "events": ["dismiss", "motionVisibleEnd", "motionHiddenEnd"],
+  "slots": ["header", "default", "footer"],
+  "accessibility": ["dialog", "aria-modal", "focus trap", "focus restoration"],
+  "classification": "Extracted"
+}

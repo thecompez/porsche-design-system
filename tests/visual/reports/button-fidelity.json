@@ -1,0 +1,156 @@
+{
+    "geometry": {
+        "actualComponents": [
+            {
+                "height": 56,
+                "width": 107,
+                "x": 232,
+                "y": 134
+            },
+            {
+                "height": 56,
+                "width": 127,
+                "x": 361,
+                "y": 134
+            },
+            {
+                "height": 36,
+                "width": 92,
+                "x": 232,
+                "y": 206
+            },
+            {
+                "height": 36,
+                "width": 92,
+                "x": 361,
+                "y": 206
+            },
+            {
+                "height": 56,
+                "width": 113,
+                "x": 232,
+                "y": 258
+            },
+            {
+                "height": 56,
+                "width": 113,
+                "x": 361,
+                "y": 258
+            },
+            {
+                "height": 56,
+                "width": 109,
+                "x": 232,
+                "y": 330
+            },
+            {
+                "height": 56,
+                "width": 109,
+                "x": 361,
+                "y": 330
+            }
+        ],
+        "maximumBoundsDeviation": 1,
+        "maximumHeightDeviation": 0,
+        "maximumWidthDeviation": 1,
+        "referenceComponents": [
+            {
+                "height": 56,
+                "width": 107,
+                "x": 232,
+                "y": 134
+            },
+            {
+                "height": 56,
+                "width": 127,
+                "x": 361,
+                "y": 134
+            },
+            {
+                "height": 36,
+                "width": 93,
+                "x": 232,
+                "y": 206
+            },
+            {
+                "height": 36,
+                "width": 93,
+                "x": 361,
+                "y": 206
+            },
+            {
+                "height": 56,
+                "width": 113,
+                "x": 232,
+                "y": 258
+            },
+            {
+                "height": 56,
+                "width": 114,
+                "x": 361,
+                "y": 258
+            },
+            {
+                "height": 56,
+                "width": 109,
+                "x": 232,
+                "y": 330
+            },
+            {
+                "height": 56,
+                "width": 109,
+                "x": 361,
+                "y": 330
+            }
+        ]
+    },
+    "lockedRelease": "4.4.0",
+    "meanColorDelta": 1.3205016915954417,
+    "passed": true,
+    "pixelMaskSimilarity": 0.9715054666827295,
+    "pixelSimilarity": 0.9948215619937435,
+    "states": [
+        {
+            "meanColorDelta": 1.007638888888889,
+            "pixelSimilarity": 0.9960484749455337,
+            "state": "light",
+            "structuralSimilarity": 0.9760250095585093
+        },
+        {
+            "meanColorDelta": 2.2418108974358972,
+            "pixelSimilarity": 0.9912085847159376,
+            "state": "hover",
+            "structuralSimilarity": 0.9759103893474887
+        },
+        {
+            "meanColorDelta": 0.9543064458689459,
+            "pixelSimilarity": 0.996257621780906,
+            "state": "active",
+            "structuralSimilarity": 0.9759686782773053
+        },
+        {
+            "meanColorDelta": 1.2685060541310542,
+            "pixelSimilarity": 0.995025466454388,
+            "state": "dark",
+            "structuralSimilarity": 0.9773304275539778
+        },
+        {
+            "meanColorDelta": 1.0947008547008548,
+            "pixelSimilarity": 0.9957070554717613,
+            "state": "focus",
+            "structuralSimilarity": 0.9624258548499651
+        },
+        {
+            "meanColorDelta": 1.3560470085470084,
+            "pixelSimilarity": 0.9946821685939333,
+            "state": "rtl",
+            "structuralSimilarity": 0.9613724405091312
+        }
+    ],
+    "structuralSimilarity": 0.996215336728919,
+    "thresholds": {
+        "maximumBoundsDeviation": 1,
+        "maximumMeanColorDelta": 3,
+        "minimumStructuralSimilarity": 0.98
+    }
+}

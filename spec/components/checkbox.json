@@ -1,0 +1,27 @@
+{
+  "component": "checkbox",
+  "upstreamTag": "p-checkbox",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/checkbox/checkbox.tsx",
+    "packages/components/src/components/checkbox/checkbox-styles.ts",
+    "packages/components/src/styles/checkbox/checkbox-base-styles.ts"
+  ],
+  "properties": [
+    "name", "required", "disabled", "indeterminate", "checked", "form",
+    "value", "label", "state", "message", "hideLabel", "loading", "compact"
+  ],
+  "states": ["none", "success", "error"],
+  "geometry": {
+    "normalDimension": 28, "compactDimension": 18, "border": 1,
+    "normalRadiusToken": "radiusLg", "compactRadiusToken": "radiusMd",
+    "labelGapNormal": 8, "labelGapCompact": 4
+  },
+  "icons": {
+    "checked": "native vector path, no glyph",
+    "indeterminate": "native vector path, no glyph"
+  },
+  "keyboard": ["Space"],
+  "classification": "Extracted"
+}

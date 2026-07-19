@@ -1,0 +1,47 @@
+{
+  "component": "icon",
+  "upstreamTag": "p-icon",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/icon/icon.tsx",
+    "packages/components/src/components/icon/icon-utils.ts",
+    "packages/components/src/components/icon/icon-styles.ts",
+    "packages/assets/projects/icons/package.json"
+  ],
+  "defaults": {
+    "name": "arrow-right",
+    "color": "primary",
+    "size": "sm"
+  },
+  "sizes": ["2xs", "xs", "sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "inherit"],
+  "colors": [
+    "primary", "contrast-higher", "contrast-high", "contrast-medium",
+    "contrast-low", "contrast-lower", "success", "warning", "error",
+    "info", "inherit"
+  ],
+  "geometry": {
+    "viewBox": "0 0 24 24",
+    "extentToken": "leadingNormal",
+    "sizeUsesTypeScale": true
+  },
+  "directionalIcons": [
+    "arrow-compact-left", "arrow-compact-right", "arrow-double-left",
+    "arrow-double-right", "arrow-first", "arrow-head-left",
+    "arrow-head-right", "arrow-last", "arrow-left", "arrow-right",
+    "chart", "chat", "copy", "external", "increase", "list", "logout",
+    "return", "send"
+  ],
+  "assetPolicy": {
+    "package": "@porsche-design-system/icons",
+    "packageLicense": "UNLICENSED",
+    "redistributePaths": false,
+    "nativeStrategy": "ExternalInjection",
+    "missingAssetStrategy": "UnavailableWithoutFakeGlyph"
+  },
+  "accessibility": {
+    "decorative": "ignored",
+    "named": "Accessible.Graphic with explicit accessibleName"
+  },
+  "classification": "Extracted"
+}

@@ -1,0 +1,25 @@
+{
+  "component": "switch",
+  "upstreamTag": "p-switch",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/switch/switch.tsx",
+    "packages/components/src/components/switch/switch-styles.ts"
+  ],
+  "properties": ["alignLabel", "hideLabel", "stretch", "checked", "disabled", "loading", "compact"],
+  "geometry": {
+    "normal": {"trackWidth": 48, "trackHeight": 28, "thumb": 20, "thumbInset": 3},
+    "compact": {"scale": 0.64285714, "trackWidth": 30.857, "trackHeight": 18, "thumb": 12.857},
+    "border": 1, "radiusToken": "radiusFull"
+  },
+  "colors": {
+    "off": ["colorFrostedSoft", "colorContrastLow", "colorPrimary"],
+    "on": ["colorSuccessFrostedSoft", "colorSuccessLow", "colorSuccess"],
+    "hoverOffBorder": "colorPrimary",
+    "hoverOnBorder": "colorSuccess"
+  },
+  "keyboard": ["Space"],
+  "accessibility": ["switch role", "checked", "disabled", "loading"],
+  "classification": "Extracted"
+}

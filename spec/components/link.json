@@ -1,0 +1,43 @@
+{
+  "component": "link",
+  "upstreamTag": "p-link",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/link/link.tsx",
+    "packages/components/src/components/link/link-styles.ts",
+    "packages/components/src/styles/link-button-styles.ts"
+  ],
+  "defaults": {
+    "variant": "primary",
+    "hideLabel": false,
+    "compact": false
+  },
+  "variants": ["primary", "secondary"],
+  "geometry": {
+    "normal": {"paddingBlock": 16, "paddingInline": 28, "gap": 8, "radiusToken": "radiusXl"},
+    "compact": {"paddingBlock": 6, "paddingInline": 16, "gap": 4, "radiusToken": "radiusLg"},
+    "hiddenLabelRadiusToken": "radiusFull",
+    "iconExtentToken": "leadingNormal"
+  },
+  "colors": {
+    "primary": {
+      "foreground": "colorCanvas",
+      "background": "colorPrimary",
+      "hoverBackground": "colorContrastHigh"
+    },
+    "secondary": {
+      "foreground": "colorPrimary",
+      "background": "colorFrostedStrong",
+      "hoverBackground": "colorFrosted"
+    }
+  },
+  "interaction": {
+    "role": "link",
+    "keyboard": ["Enter", "Space"],
+    "disabled": false,
+    "visitedStyle": false,
+    "openStrategy": "Qt.openUrlExternally"
+  },
+  "classification": "Extracted"
+}

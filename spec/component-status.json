@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "name": "Button",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "RTL": "Complete", "LIGHT": "Complete", "DARK": "Complete",
+        "REFERENCE": "Complete", "DIFF": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pass", "visual": "Complete",
+        "fidelity": "Pass", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Spinner",
+      "aspects": {
+        "GALLERY": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Pending", "tests": "Pending",
+        "accessibility": "Pending", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Icon",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Text",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Heading",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Divider",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Link",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "LinkPure",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "ButtonPure",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "InputText",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "InputPassword",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Switch",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Checkbox",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "RadioGroup",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Select",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Banner",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "GALLERY": "Complete", "DOCS": "Complete",
+        "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pending", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "InlineNotification",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Tag",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "GALLERY": "Complete",
+        "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Tabs",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    },
+    {
+      "name": "Modal",
+      "aspects": {
+        "API": "Complete", "TOKENS": "Complete", "GEOMETRY": "Complete",
+        "STATES": "Complete", "A11Y": "Complete", "KEYBOARD": "Complete",
+        "GALLERY": "Complete", "DOCS": "Complete", "TESTS": "Complete"
+      },
+      "dashboard": {
+        "implementation": "Complete", "api": "Complete", "tests": "Pass",
+        "accessibility": "Pass", "rtl": "Pending", "visual": "Pending",
+        "fidelity": "Pending", "gallery": "Complete"
+      }
+    }
+  ]
+}

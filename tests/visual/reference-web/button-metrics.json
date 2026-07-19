@@ -1,0 +1,115 @@
+{
+  "source": {
+    "package": "@porsche-design-system/components-js",
+    "version": "4.4.0",
+    "fixture": "../fixtures/button/reference.html",
+    "viewport": { "width": 720, "height": 520 },
+    "devicePixelRatio": 1
+  },
+  "scene": { "x": 231.609375, "y": 134, "width": 256.78125, "height": 252 },
+  "buttons": [
+    {
+      "label": "Primary",
+      "variant": "primary",
+      "compact": false,
+      "x": 231.609375,
+      "y": 134,
+      "width": 107.5859375,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 1
+    },
+    {
+      "label": "Secondary",
+      "variant": "secondary",
+      "compact": false,
+      "x": 361.4453125,
+      "y": 134,
+      "width": 126.9453125,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 1
+    },
+    {
+      "label": "Compact",
+      "variant": "primary",
+      "compact": true,
+      "x": 231.609375,
+      "y": 206,
+      "width": 92.9765625,
+      "height": 36,
+      "padding": "6px 16px",
+      "radius": 8,
+      "opacity": 1
+    },
+    {
+      "label": "Compact",
+      "variant": "secondary",
+      "compact": true,
+      "x": 361.4453125,
+      "y": 206,
+      "width": 92.9765625,
+      "height": 36,
+      "padding": "6px 16px",
+      "radius": 8,
+      "opacity": 1
+    },
+    {
+      "label": "Disabled",
+      "variant": "primary",
+      "compact": false,
+      "x": 231.609375,
+      "y": 258,
+      "width": 113.8359375,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 0.4
+    },
+    {
+      "label": "Disabled",
+      "variant": "secondary",
+      "compact": false,
+      "x": 361.4453125,
+      "y": 258,
+      "width": 113.8359375,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 0.4
+    },
+    {
+      "label": "Loading",
+      "variant": "primary",
+      "compact": false,
+      "x": 231.609375,
+      "y": 330,
+      "width": 108.9296875,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 1
+    },
+    {
+      "label": "Loading",
+      "variant": "secondary",
+      "compact": false,
+      "x": 361.4453125,
+      "y": 330,
+      "width": 108.9296875,
+      "height": 56,
+      "padding": "16px 28px",
+      "radius": 12,
+      "opacity": 1
+    }
+  ],
+  "computedStyle": {
+    "font": "400 16px / 24px \"Porsche Next\", \"Arial Narrow\", Arial, \"Heiti SC\", SimHei, sans-serif",
+    "primaryBackground": "rgb(1, 2, 5)",
+    "primaryForeground": "rgb(255, 255, 255)",
+    "secondaryBackground": "rgba(100, 101, 114, 0.235)",
+    "secondaryForeground": "rgb(1, 2, 5)"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "component": "inline-notification",
+  "upstreamTag": "p-inline-notification",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/inline-notification/inline-notification.tsx",
+    "packages/components/src/components/inline-notification/inline-notification-styles.ts",
+    "packages/components/src/components/common/notification-base/notification-base-styles.ts"
+  ],
+  "properties": [
+    "heading", "headingTag", "description", "state", "dismissButton",
+    "actionLabel", "actionLoading", "actionIcon"
+  ],
+  "states": ["info", "success", "warning", "error"],
+  "geometry": {
+    "radiusToken": "radius2Xl",
+    "padding": "spacingStaticSm + spacingFluidSm",
+    "iconExtent": 24,
+    "iconGapToken": "spacingStaticSm",
+    "headingDescriptionGapToken": "spacingStaticXs",
+    "actionGapToken": "spacingStaticMd"
+  },
+  "colors": {
+    "info": ["colorInfoFrosted", "colorInfo"],
+    "success": ["colorSuccessFrosted", "colorSuccess"],
+    "warning": ["colorWarningFrosted", "colorWarning"],
+    "error": ["colorErrorFrosted", "colorError"]
+  },
+  "accessibility": {
+    "warningAndError": ["alert", "assertive"],
+    "infoAndSuccess": ["status", "polite"]
+  },
+  "classification": "Extracted"
+}

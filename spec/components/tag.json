@@ -1,0 +1,29 @@
+{
+  "component": "tag",
+  "upstreamTag": "p-tag",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/tag/tag.tsx",
+    "packages/components/src/components/tag/tag-utils.ts",
+    "packages/components/src/components/tag/tag-styles.ts"
+  ],
+  "defaults": {"variant": "secondary", "icon": "none", "compact": false},
+  "variants": [
+    "primary", "secondary", "info", "info-frosted", "warning",
+    "warning-frosted", "success", "success-frosted", "error", "error-frosted"
+  ],
+  "properties": ["variant", "icon", "iconSource", "compact"],
+  "geometry": {
+    "fontSizeToken": "typescaleXs", "lineHeightToken": "leadingNormal",
+    "normalPaddingBlock": 4, "normalPaddingInline": 12,
+    "compactPaddingBlock": 2, "compactPaddingInline": 12,
+    "iconGap": 2, "normalHeight": 32, "compactHeight": 28
+  },
+  "interaction": {
+    "componentItselfInteractive": false,
+    "slottedAnchorOrButton": ["hover", "focus", "underline"],
+    "qtAdaptation": "Interactive content remains a child control; Tag itself is not focusable."
+  },
+  "classification": "Extracted"
+}

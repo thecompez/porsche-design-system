@@ -1,0 +1,21 @@
+{
+  "majorVersion": 4,
+  "release": "4.4.0",
+  "gitCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "gitTag": "v4.4.0",
+  "sourceRepository": "https://github.com/porsche-design-system/porsche-design-system",
+  "documentationVersion": "4.4.0",
+  "documentationUrl": "https://designsystem.porsche.com/v4/",
+  "packages": {
+    "@porsche-design-system/components-js": "4.4.0",
+    "@porsche-design-system/components-react": "4.4.0",
+    "@porsche-design-system/components-angular": "4.4.0",
+    "@porsche-design-system/components-vue": "4.4.0"
+  },
+  "componentsJsTarball": {
+    "url": "https://registry.npmjs.org/@porsche-design-system/components-js/-/components-js-4.4.0.tgz",
+    "sha256": "c00e13a2fa23dadb185652133961464ece6943f1c981b76e44d7c3cd93622eb6"
+  },
+  "cdnLoader": "https://cdn.ui.porsche.com/porsche-design-system/components/porsche-design-system.v4.4.0.6061434ac0cf4528ac11.js",
+  "retrievedAt": "2026-07-18T10:16:39Z"
+}

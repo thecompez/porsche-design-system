@@ -1,0 +1,36 @@
+{
+  "component": "heading",
+  "upstreamTag": "p-heading",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/heading/heading.tsx",
+    "packages/components/src/components/heading/heading-utils.ts",
+    "packages/components/src/components/heading/heading-styles.ts"
+  ],
+  "defaults": {
+    "tag": "inferred from size",
+    "size": "2xl",
+    "weight": "normal",
+    "align": "start",
+    "color": "primary",
+    "hyphens": "none",
+    "ellipsis": false
+  },
+  "tags": ["h1", "h2", "h3", "h4", "h5", "h6"],
+  "sizes": ["2xs", "xs", "sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "inherit"],
+  "weights": ["normal", "semibold", "bold"],
+  "alignments": ["start", "center", "end", "inherit"],
+  "colors": ["primary", "contrast-higher", "contrast-high", "contrast-medium", "inherit"],
+  "hyphens": ["none", "manual", "auto", "inherit"],
+  "semanticLevelBySize": {
+    "2xs": 6, "xs": 6, "sm": 6, "md": 5, "lg": 4, "xl": 3,
+    "2xl": 2, "3xl": 2, "4xl": 2, "5xl": 2, "inherit": 2
+  },
+  "typography": {
+    "familyToken": "fontPorscheNext",
+    "baseSizeToken": "typescale2Xl",
+    "lineHeightToken": "leadingNormal"
+  },
+  "classification": "Extracted"
+}

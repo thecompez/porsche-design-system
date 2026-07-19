@@ -1,0 +1,85 @@
+{
+  "component": "button",
+  "upstreamTag": "p-button",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/button/button.tsx",
+    "packages/components/src/components/button/button-styles.ts",
+    "packages/components/src/styles/link-button-styles.ts"
+  ],
+  "variants": ["primary", "secondary"],
+  "font": {
+    "familyToken": "fontPorscheNext",
+    "sizeToken": "typescaleSm",
+    "weightToken": "fontWeightNormal",
+    "lineHeightToken": "leadingNormal"
+  },
+  "geometry": {
+    "normal": {
+      "paddingBlock": 16,
+      "paddingInline": 28,
+      "gap": 8,
+      "radiusToken": "radiusXl",
+      "radius": 12
+    },
+    "compact": {
+      "paddingBlock": 6,
+      "paddingInline": 16,
+      "gap": 4,
+      "radiusToken": "radiusLg",
+      "radius": 8
+    },
+    "focusOutlineWidth": 2,
+    "focusOutlineOffset": 2,
+    "iconExtentToken": "leadingNormal"
+  },
+  "colors": {
+    "primary": {
+      "foreground": "colorCanvas",
+      "background": "colorPrimary",
+      "hoverBackground": "colorContrastHigh"
+    },
+    "secondary": {
+      "foreground": "colorPrimary",
+      "background": "colorFrostedStrong",
+      "hoverBackground": "colorFrosted"
+    },
+    "focus": "colorFocus"
+  },
+  "motion": {
+    "durationToken": "durationSm",
+    "durationMs": 250,
+    "easingToken": "easeInOut",
+    "easing": [0.25, 0.1, 0.25, 1.0]
+  },
+  "states": {
+    "default": {},
+    "hover": {
+      "appliesOnlyWhenInteractive": true
+    },
+    "active": {
+      "distinctUpstreamSelector": false
+    },
+    "focus": {
+      "visibleForKeyboardModality": true
+    },
+    "disabled": {
+      "opacity": 0.4,
+      "blocksInteraction": true
+    },
+    "loading": {
+      "blocksInteraction": true,
+      "contentOpacity": 0,
+      "showsSpinner": true
+    }
+  },
+  "statePriority": [
+    "disabled",
+    "loading",
+    "focus-visible",
+    "hover",
+    "default"
+  ],
+  "classification": "Extracted"
+}

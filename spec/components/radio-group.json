@@ -1,0 +1,28 @@
+{
+  "component": "radio-group",
+  "upstreamTag": "p-radio-group",
+  "upstreamRelease": "4.4.0",
+  "upstreamCommit": "ff5d3d4dfdab3312dbf299e88457af59f289c264",
+  "sources": [
+    "packages/components/src/components/radio-group/radio-group/radio-group.tsx",
+    "packages/components/src/components/radio-group/radio-group/radio-group-styles.ts",
+    "packages/components/src/components/radio-group/radio-group-option/radio-group-option-styles.ts"
+  ],
+  "properties": [
+    "label", "description", "compact", "direction", "name", "value",
+    "required", "loading", "disabled", "form", "state", "message", "hideLabel"
+  ],
+  "directions": ["row", "column"],
+  "optionGeometry": {
+    "normalDimension": 28, "compactDimension": 18, "border": 1,
+    "radiusToken": "radiusFull", "innerDotRadius": 6
+  },
+  "keyboard": {
+    "next": ["ArrowRight", "ArrowDown"],
+    "previous": ["ArrowLeft", "ArrowUp"],
+    "wrap": true,
+    "skipDisabled": true
+  },
+  "accessibility": ["radiogroup", "radio", "checked", "required", "invalid", "disabled"],
+  "classification": "Extracted"
+}
