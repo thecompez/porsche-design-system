@@ -120,6 +120,8 @@ set(PDS_QML_FILES
     src/pds/qml/controls/Banner.qml
     src/pds/qml/controls/InlineNotification.qml
     src/pds/qml/controls/Tag.qml
+    src/pds/qml/controls/Tabs.qml
+    src/pds/qml/controls/Modal.qml
 )
 
 set_source_files_properties(
@@ -146,7 +148,7 @@ set_target_properties(PdsNativeControls PROPERTIES EXPORT_NAME Controls)
 
 if(PDS_BUILD_GALLERY)
     add_subdirectory(examples/component-lab)
-    add_subdirectory(examples/porsche-reference-gallery)
+    add_subdirectory(examples/reference-gallery)
 endif()
 
 if(PDS_BUILD_TESTS)
