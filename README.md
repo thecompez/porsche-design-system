@@ -76,6 +76,9 @@ Button {
 Use `Theme.fontFamily` to inject a properly licensed Porsche Next family. The
 repository otherwise uses the documented metric-calibrated fallback.
 
+## Current Output
+<img width="1414" height="872" alt="concept" src="https://github.com/user-attachments/assets/b739972d-e330-43d2-9ec8-9633f7ce3c52" />
+
 ## Repository map
 
 - `upstream/`: immutable release lock and raw token snapshot
